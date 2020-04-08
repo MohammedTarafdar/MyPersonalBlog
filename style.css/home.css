@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(202, 221, 240);
+}
+
+header{
+    position: relative;
+    margin: 0 ;
+    width: 100%;
+    background-color: rgb(100,200, 230);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+/*.sidenav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    background-color: rgb(100, 100, 100);
+
+}*/
+
+.sidenav{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px 0 30px 10px;
+    margin: 0px 0;
+    background-color: rgb(100, 100, 100);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    text-align: center;
+}

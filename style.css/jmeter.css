@@ -1,4 +1,3 @@
-
 body{
     background-color: rgb(202, 221, 240);
 }
@@ -19,9 +18,9 @@ header{
 }
 
 footer{
-    position: relative;
-    margin: 0;
-    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background-color: rgb(100, 100, 100);
     color: white;
